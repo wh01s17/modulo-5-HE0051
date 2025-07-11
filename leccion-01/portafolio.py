@@ -38,3 +38,4 @@ if __name__ == "__main__":
     print("🧪 Analizador de Cabeceras HTTP - Python y Ciberseguridad")
     target_url = input("Ingresa la URL a analizar (ej: scanme.nmap.org): ")
     analyze_headers(target_url)
+    
