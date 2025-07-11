@@ -4,7 +4,7 @@ host = "127.0.0.1"
 #             ftp, ssh, http, https, mysql/mariadb
 puertos_lista = [21, 22, 80, 443, 3306]
 
-for puerto in puertos:
+for puerto in puertos_lista:
     s = socket.socket()
     s.settimeout(1)     # 1 segundo
     # s.settimeout(0.5)   # medio segundo (500 milisegundos)
