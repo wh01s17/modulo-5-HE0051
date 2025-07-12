@@ -14,7 +14,7 @@ def crack_md5():
         with open(wordlist, 'rt', encoding='latin-1') as dic:
             barra = tqdm(dic, desc="Crackeando", unit=" palabra")
 
-            for word in dic:
+            for word in barra:
                 word = word.strip()
                 hash_md5 = hashlib.md5(word.encode()).hexdigest()
 
