@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 import platform
 from colorama import init, Fore, Style
+import signal
 
 # Inicializa colorama (necesario en Windows)
 if platform.system() == "Windows":
